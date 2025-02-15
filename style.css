@@ -104,7 +104,7 @@ header .header-info {
     position: fixed;
     top: 20px;
     right: 20px;
-    background-color: var(--color-secundario);
+    background-color: var(--color-terciario);
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -197,6 +197,25 @@ audio::-webkit-media-controls-current-time-display {
      color: var(--color-terciario);
      background-color: transparent;
      border: 1px solid var(--color-terciario);
+     padding: 10px 30PX;
+     text-align: center;
+     text-decoration: none;
+ }
+
+
+ .boton3 {
+    border: 1px solid var(--color-principal);
+    background-color: var(--color-principal);
+    color: var(--color-terciario);
+    padding: 10px 30PX;
+    text-decoration: none;
+    margin-top:0px;
+    border-radius: 50px;
+ }
+ .boton3:hover {
+     color: var(--color-principal);
+     background-color: var(--color-terciario);
+     border: 1px solid var(--color-principal);
      padding: 10px 30PX;
      text-align: center;
      text-decoration: none;
