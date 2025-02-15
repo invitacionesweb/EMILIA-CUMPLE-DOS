@@ -1,7 +1,7 @@
 :root {
     --color-principal:#fefdfa;
     --color-secundario:#F3E5E6;
-    --color-terciario:#F3E5E6;
+    --color-terciario:#F3AACB;
     --font-principal:'Schoolbell', cursive;
     --font-secundaria:'Nunito Sans', sans-serif;
 }
@@ -324,7 +324,7 @@ footer {
     width: 100%;
     height: auto;
     margin: 0;
-    background-color: var(--color-terciario);
+    background-color: var(--color-secundario);
     color: var(--color-principal);
     padding: 40px 0;
     text-align: center;
